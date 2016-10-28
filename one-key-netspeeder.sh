@@ -36,7 +36,7 @@ fi
 rpm -Uvh epel-release*rpm
 yum install -y libnet libnet-devel libpcap libpcap-devel gcc
 #安装net_speeder
-wget https://coding.net/u/njzhenghao/p/download/git/raw/master/net_speeder.tar.gz -O -|tar xz
+wget https://github.com/sjx1995/Download/blob/master/net_speeder.tar.gz -O -|tar xz
 cd net_speeder
 #编译
 if [ -f /proc/user_beancounters ] || [ -d /proc/bc ]; then
